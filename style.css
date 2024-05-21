@@ -139,7 +139,7 @@ section.multimedia-content {
 /*SECCION PLAYER*/
 #progress {
     -webkit-appearance: none;
-    width: 100%;
+    width: 70%;
     height: 4px;
     background-color: white;
     border-radius: 4px;
@@ -208,7 +208,8 @@ section.multimedia-content {
 .play-box {
     display: flex;
     gap: 35px;
-    color: white;
+    width: 100%;
+    justify-content: center;
 }
 
 .player-middle-box {
@@ -216,6 +217,7 @@ section.multimedia-content {
     align-items: center;
     justify-content: center;
     gap: 5px;
+    width: 100%;
 }
 
 .player-right {
@@ -385,6 +387,13 @@ QUERY: BETWEEN MOBILE AND TABLET
     .box-playlist {
         width: calc(100% / 2);
     }
+
+    /*MULTIMEDIA PLAYER*/
+    .heart-box {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
 }
 
 
@@ -492,6 +501,13 @@ QUERY: TABLET
     .box-playlist {
         width: calc(100% / 4);
     }
+
+    /*MULTIMEDIAPLAYER*/
+    .heart-box {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
 }
 
 /***********************************************************
@@ -597,5 +613,12 @@ QUERY: DESKTOP
 
     .box-playlist {
         width: calc(100% / 6);
+    }
+
+    /*MULTIMEDIA PLAYER*/
+    .heart-box {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
     }
 }
