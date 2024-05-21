@@ -215,6 +215,10 @@ section.multimedia-content {
 
 /* BG COLOR */
 
+.bg-whitesmoke {
+    background-color: #76797d;
+}
+
 /* MARGIN - PADDING*/
 
 .mx-tb-15 {
@@ -225,6 +229,10 @@ section.multimedia-content {
 .mx-tb-5 {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.mx-t-15 {
+    margin-top: 15px;
 }
 
 /***********************************************************
@@ -270,6 +278,27 @@ QUERY: BETWEEN MOBILE AND TABLET
         gap: 5px;
     }
 
+    .fa-plus {
+        padding: 8px 8px;
+    }
+
+    .list-new-playlist {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        width: 15vw;
+        height: 25vh;
+        overflow-y: scroll;
+    }
+
+    .list-new-playlist {
+        scrollbar-width: none;
+    }
+
+    /* .list-new-playlist::-webkit-scrollbar {
+        display: none;
+    } */
+
     .img-desktop {
         width: 25px;
     }
@@ -290,6 +319,14 @@ QUERY: BETWEEN MOBILE AND TABLET
         height: 76vh;
         overflow-y: scroll;
     }
+
+    section.multimedia-content {
+        scrollbar-width: none;
+    }
+
+    /* section.multimedia-content {
+        display: none;
+    } */
 
     .playlist {
         width: 95%;
@@ -346,6 +383,27 @@ QUERY: TABLET
         gap: 5px;
     }
 
+    .fa-plus {
+        padding: 8px 8px;
+    }
+
+    .list-new-playlist {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        width: 15vw;
+        height: 25vh;
+        overflow-y: scroll;
+    }
+
+    .list-new-playlist {
+        scrollbar-width: none;
+    }
+
+    /* .list-new-playlist::-webkit-scrollbar {
+        display: none;
+    } */
+
     .img-desktop {
         width: 25px;
     }
@@ -366,6 +424,14 @@ QUERY: TABLET
         height: 79vh;
         overflow-y: scroll;
     }
+
+    section.multimedia-content {
+        scrollbar-width: none;
+    }
+
+    /* section.multimedia-content {
+        display: none;
+    } */
 
     .playlist {
         width: 95%;
@@ -426,6 +492,27 @@ QUERY: DESKTOP
         width: 25px;
     }
 
+    .fa-plus {
+        padding: 8px 8px;
+    }
+
+    .list-new-playlist {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        width: 15vw;
+        height: 25vh;
+        overflow-y: scroll;
+    }
+
+    .list-new-playlist {
+        scrollbar-width: none;
+    }
+
+    /* .list-new-playlist::-webkit-scrollbar {
+        display: none;
+    } */
+
     .content {
         height: 90vh;
         width: 83vw;
@@ -441,6 +528,14 @@ QUERY: DESKTOP
         height: 79vh;
         overflow-y: scroll;
     }
+
+    section.multimedia-content {
+        scrollbar-width: none;
+    }
+
+    /* section.multimedia-content {
+        display: none;
+    } */
 
     .playlist {
         width: 95%;
