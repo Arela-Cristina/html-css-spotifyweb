@@ -19,7 +19,7 @@ MOBILE FIRST
 }
 
 .mobile-nav {
-    height: 85vh;
+    height: 90vh;
     width: 12vw;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,24 @@ MOBILE FIRST
     flex-direction: column;
     align-items: center;
     width: 60%;
-    margin: 0 auto;
+    margin: 10px auto;
+    gap: 10px;
+    align-content: center;
+}
+
+.img-mobile {
+    width: 30px;
+}
+
+.img-mobile-download {
+    width: 20px;
+}
+
+.img-mobile-nav {
+    background-color: gray;
+    border-radius: 50px;
+    padding: 3px 5px;
+    width: 30px;
 }
 
 .desktop-nav {
@@ -41,10 +58,9 @@ MOBILE FIRST
 }
 
 .content {
-    height: 85vh;
+    height: 90vh;
     width: 88vw;
-    /*DEBUG*/
-    background: pink;
+    background: #141922;
 }
 
 .banner {
@@ -56,6 +72,20 @@ MOBILE FIRST
 
 }
 
+#button {
+    height: 25px;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 4px 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
 .box-nav-bar {
     display: flex;
     flex-wrap: wrap;
@@ -64,14 +94,18 @@ MOBILE FIRST
     width: 95%;
     margin: 0 auto;
     justify-content: center;
-    /*debug*/
-    background-color: lavender;
 }
 
 section.multimedia-content {
     width: 88vw;
-    height: 75vh;
+    height: 71vh;
     overflow-y: scroll;
+}
+
+.box-title-playlist {
+    width: 95%;
+    margin: 0 auto;
+    text-align: initial;
 }
 
 .playlist {
@@ -88,6 +122,16 @@ section.multimedia-content {
 .box-playlist {
     width: calc(100% / 2);
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 45px;
+}
+
+.box-stranger {
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 
@@ -106,7 +150,7 @@ section.multimedia-content {
     display: flex;
     background-color: #282828;
     width: 100vw;
-    height: 15vh;
+    height: 10vh;
     position: absolute;
     z-index: 500;
 }
@@ -156,6 +200,33 @@ section.multimedia-content {
     justify-content: flex-end;
 }
 
+/*FONT COLOR*/
+.whitesmoke {
+    color: #76797d;
+}
+
+.white {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* BG COLOR */
+
+/* MARGIN - PADDING*/
+
+.mx-tb-15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.mx-tb-5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 /***********************************************************
 QUERY: BETWEEN MOBILE AND TABLET                  
 ***********************************************************/
@@ -172,7 +243,7 @@ QUERY: BETWEEN MOBILE AND TABLET
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 85vh;
+        height: 90vh;
         width: 30vw;
         /*DEBUG*/
         background: black;
@@ -182,23 +253,32 @@ QUERY: BETWEEN MOBILE AND TABLET
         display: flex;
         flex-direction: column;
         width: 100%;
+        margin: 20px 10px;
+        gap: 10px;
+    }
+
+    .img-desktop-logo {
+        width: 140px;
+        margin-bottom: 15px;
     }
 
     .item-box {
         color: white;
         width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 5px;
     }
 
-    .debug-30px {
-        /*DEBUG*/
-        width: 30px;
+    .img-desktop {
+        width: 25px;
     }
 
     .content {
-        height: 85vh;
+        height: 90vh;
         width: 70vw;
         /*DEBUG*/
-        background: pink;
+        background: #141922;
     }
 
     .box-nav-bar {
@@ -207,7 +287,7 @@ QUERY: BETWEEN MOBILE AND TABLET
 
     section.multimedia-content {
         width: 70vw;
-        height: 67vh;
+        height: 76vh;
         overflow-y: scroll;
     }
 
@@ -239,7 +319,7 @@ QUERY: TABLET
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 85vh;
+        height: 90vh;
         width: 30vw;
         /*DEBUG*/
         background: black;
@@ -249,23 +329,32 @@ QUERY: TABLET
         display: flex;
         flex-direction: column;
         width: 100%;
+        margin: 20px 10px;
+        gap: 10px;
+    }
+
+    .img-desktop-logo {
+        width: 140px;
+        margin-bottom: 15px;
     }
 
     .item-box {
         color: white;
         width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 5px;
     }
 
-    .debug-30px {
-        /*DEBUG*/
-        width: 30px;
+    .img-desktop {
+        width: 25px;
     }
 
     .content {
-        height: 85vh;
+        height: 90vh;
         width: 70vw;
         /*DEBUG*/
-        background: pink;
+        background: #141922;
     }
 
     .box-nav-bar {
@@ -274,7 +363,7 @@ QUERY: TABLET
 
     section.multimedia-content {
         width: 70vw;
-        height: 69vh;
+        height: 79vh;
         overflow-y: scroll;
     }
 
@@ -306,7 +395,7 @@ QUERY: DESKTOP
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 85vh;
+        height: 90vh;
         width: 17vw;
         /*DEBUG*/
         background: black;
@@ -316,23 +405,31 @@ QUERY: DESKTOP
         display: flex;
         flex-direction: column;
         width: 100%;
+        margin: 20px 10px;
+        gap: 10px;
+    }
+
+    .img-desktop-logo {
+        width: 140px;
+        margin-bottom: 15px;
     }
 
     .item-box {
         color: white;
         width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 5px;
     }
 
-    .debug-30px {
-        /*DEBUG*/
-        width: 30px;
+    .img-desktop {
+        width: 25px;
     }
 
     .content {
-        height: 85vh;
+        height: 90vh;
         width: 83vw;
-        /*DEBUG*/
-        background: pink;
+        background: #141922;
     }
 
     .box-nav-bar {
@@ -341,7 +438,7 @@ QUERY: DESKTOP
 
     section.multimedia-content {
         width: 83vw;
-        height: 73vh;
+        height: 79vh;
         overflow-y: scroll;
     }
 

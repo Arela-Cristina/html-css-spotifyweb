@@ -15,41 +15,41 @@
         <div class="mobile-nav">
             <div class="nav-items">
                 <img src="img/logo-small.svg" alt="logo spotify">
-                <img src="img/home.svg" alt="home spotify">
-                <img src="img/search.svg" alt="search">
-                <img src="img/libreria.svg" alt="library spotify">
+                <img class="img-mobile" src="img/home.svg" alt="home spotify">
+                <img class="img-mobile" src="img/search.svg" alt="search">
+                <img class="img-mobile" src="img/libreria.svg" alt="library spotify">
             </div>
             <div class="nav-items">
-                <img src="img/download.svg" alt="download">
-                <img src="img/profile.svg" alt="user profile">
+                <img class="img-mobile-download" src="img/download.svg" alt="download">
+                <img class="img-mobile-nav" src="img/profile.svg" alt="user profile">
             </div>
         </div>
         <!-- desktop nav -->
         <div class="desktop-nav">
             <div class="nav-desktop-items">
-                <img src="img/logo.svg" alt="logo spotify">
+                <img class="img-desktop-logo" src="img/logo.svg" alt="logo spotify">
                 <div class="item-box">
-                    <img class="debug-30px" src="img/home.svg" alt="home spotify">
-                    <span>Home</span>
+                    <img class="img-desktop" src="img/home.svg" alt="home spotify">
+                    <span class="fz-12">Home</span>
                 </div>
                 <div class="item-box">
-                    <img class="debug-30px" src="img/search.svg" alt="search">
-                    <span>Cerca</span>
+                    <img class="img-desktop" src="img/search.svg" alt="search">
+                    <span class="fz-12">Cerca</span>
                 </div>
                 <div class="item-box">
-                    <img class="debug-30px" src="img/libreria.svg" alt="library spotify">
-                    <span>La tua libreria</span>
+                    <img class="img-desktop" src="img/libreria.svg" alt="library spotify">
+                    <span class="fz-12">La tua libreria</span>
                 </div>
             </div>
 
             <div class="nav-desktop-items">
                 <div class="item-box">
-                    <img class="debug-30px" src="img/download.svg" alt="download">
-                    <span>Installa App</span>
+                    <img class="img-desktop" src="img/download.svg" alt="download">
+                    <span class="fz-12">Installa App</span>
                 </div>
                 <div class="item-box">
-                    <img class="debug-30px" src="img/profile.svg" alt="user profile">
-                    <span>Jhon Doe</span>
+                    <img class="img-desktop img-mobile-nav" src="img/profile.svg" alt="user profile">
+                    <span class="fz-12">Jhon Doe</span>
                 </div>
             </div>
         </div>
@@ -57,88 +57,96 @@
         <!-- content -->
         <div class="content">
             <div class="banner">
-                <a href="#">Effetua l'upagrade</a>
+                <a id="button" href="#">EFFETTUA L'UPAGRADE</a>
             </div>
-            <div class="box-nav-bar">
-                <span>IN EVIDENZIA</span>
-                <span>PODCAST</span>
-                <span>CLASSIFICHE</span>
-                <span>GENERI E MOOD</span>
-                <span>NUOVE USCITE</span>
-                <span>SCOPRI</span>
+            <div class="box-nav-bar mx-tb-15">
+                <span class="fz-10 whitesmoke">IN EVIDENZIA</span>
+                <span class="fz-10 whitesmoke">PODCAST</span>
+                <span class="fz-10 whitesmoke">CLASSIFICHE</span>
+                <span class="fz-10 whitesmoke">GENERI E MOOD</span>
+                <span class="fz-10 whitesmoke">NUOVE USCITE</span>
+                <span class="fz-10 whitesmoke">SCOPRI</span>
             </div>
             <section class="multimedia-content">
                 <!-- Recenty Player -->
-                <h1>Recently Played</h1>
+                <div class="box-title-playlist mx-tb-15">
+                    <h1 class="white">Recently Played</h1>
+                </div>
+
                 <div class="playlist">
                     <div class="box-playlist">
                         <img class="playlist-w-img" src="img/metal_lifting.jpg" alt="playlist metal">
-                        <div>Heavy Metal</div>
-                        <span>Subtitle</span>
+                        <div class="fz-12 mx-tb-5 white bold">Heavy Metal</div>
+                        <span class="fz-12 white">Subtitle</span>
                     </div>
 
                     <div class="box-playlist">
                         <img class="playlist-w-img" src="img/stranger.jpeg" alt="stranger things playlist">
-                        <div>Straner Things, Vol. 1 (A Netflix Original Series Soundtrack) </div>
-                        <span>Kyle Dixon & Michael Stain</span>
+                        <div class="box-stranger">
+                            <div class="fz-12 white bold">Stranger Things, Vol. 1 (A Netflix Original Series Soundtrack)
+                            </div>
+                        </div>
+                        <span class="fz-12 white">Kyle Dixon & Michael Stain</span>
                     </div>
 
                     <div class="box-playlist">
                         <img class="playlist-w-img" src="img/aquietplace.jpeg" alt="A quiet place playlist">
-                        <div>Straner Things, Vol. 1 (A Netflix Original Series Soundtrack) </div>
-                        <span>Kyle Dixon & Michael Stain</span>
+                        <div class="fz-12 mx-tb-5 white bold">A quiet Place</div>
+                        <span class="fz-12 white">Subtitle</span>
                     </div>
 
                     <div class="box-playlist">
                         <img class="playlist-w-img" src="img/split.jpeg" alt="split playlist">
-                        <div>Straner Things, Vol. 1 (A Netflix Original Series Soundtrack) </div>
-                        <span>Kyle Dixon & Michael Stain</span>
+                        <div class="fz-12 mx-tb-5 white bold">Split</div>
+                        <span class="fz-12 white">Subtitle</span>
                     </div>
 
                     <div class="box-playlist">
                         <img class="playlist-w-img" src="img/cure.jpeg" alt="a cure of wellnes playlist">
-                        <div>Straner Things, Vol. 1 (A Netflix Original Series Soundtrack) </div>
-                        <span>Kyle Dixon & Michael Stain</span>
+                        <div class="fz-12 mx-tb-5 white bold">A Cure for Wellness</div>
+                        <span class="fz-12 white">Subtitle</span>
                     </div>
 
                     <div class="box-playlist">
                         <img class="playlist-w-img" src="img/sinister.jpeg" alt="sinister playlist">
-                        <div>Straner Things, Vol. 1 (A Netflix Original Series Soundtrack) </div>
-                        <span>Kyle Dixon & Michael Stain</span>
+                        <div class="fz-12 mx-tb-5 white bold">Sinister</div>
+                        <span class="fz-12 white">Subtitle</span>
                     </div>
                 </div>
 
                 <!-- Creato per Jhon Doe -->
-                <h1>Creato per Jhon Doe</h1>
-                <span>Piu ascolti, piu accurati saranno i sugerimenti</span>
+                <div class="box-title-playlist mx-tb-15">
+                    <h1 class="white">Creato per Jhon Doe</h1>
+                    <span class="white fz-12">Piu ascolti, piu accurati saranno i sugerimenti</span>
+                </div>
+
                 <div class="playlist">
                     <div class="box-playlist">
                         <img class="playlist-w-img" src="img/radar.jpeg" alt="radar playlist">
-                        <div>Heavy Metal</div>
-                        <span>Subtitle</span>
+                        <div class="fz-12 mx-tb-5 white bold">Realease Radar</div>
                     </div>
 
                     <div class="box-playlist">
                         <img class="playlist-w-img" src="img/mixdaily.jpeg" alt="dayli mix playlist">
-                        <div>Straner Things, Vol. 1 (A Netflix Original Series Soundtrack) </div>
-                        <span>Kyle Dixon & Michael Stain</span>
+                        <div class="fz-12 mx-tb-5 white bold">Daily Mix 1</div>
                     </div>
                 </div>
 
                 <!-- Creato per Jhon Doe -->
-                <h1>Artisti piu popolari</h1>
-                <span>Piu ascolti, piu accurati saranno i sugerimenti</span>
+                <div class="box-title-playlist mx-tb-15">
+                    <h1 class="white">Artisti piu popolari</h1>
+                    <span class="white fz-12">Piu ascolti, piu accurati saranno i sugerimenti</span>
+                </div>
+
                 <div class="playlist">
                     <div class="box-playlist">
-                        <img class="playlist-w-img" src="img/einaudi.jpeg" alt="eiunaudi playlist">
-                        <div>Heavy Metal</div>
-                        <span>Subtitle</span>
+                        <img class="playlist-w-img" src="img/youg.jpeg" alt="youg playlist">
+                        <div class="fz-12 mx-tb-5 white bold">Lana del Rey</div>
                     </div>
 
                     <div class="box-playlist">
-                        <img class="playlist-w-img" src="img/youg.jpeg" alt="youg playlist">
-                        <div>Straner Things, Vol. 1 (A Netflix Original Series Soundtrack) </div>
-                        <span>Kyle Dixon & Michael Stain</span>
+                        <img class="playlist-w-img" src="img/einaudi.jpeg" alt="eiunaudi playlist">
+                        <div class="fz-12 mx-tb-5 white bold">Ludovico Eiunaudi</div>
                     </div>
                 </div>
             </section>
