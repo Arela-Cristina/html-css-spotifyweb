@@ -11,6 +11,10 @@ body {
     position: relative;
 }
 
+.box-nav-bar a {
+    text-decoration: none;
+}
+
 /***********************************************************
 MOBILE FIRST                       
 ***********************************************************/
@@ -622,3 +626,4 @@ QUERY: DESKTOP
         gap: 10px;
     }
 }
+
