@@ -139,7 +139,7 @@ section.multimedia-content {
 /*SECCION PLAYER*/
 #progress {
     -webkit-appearance: none;
-    width: 50%;
+    width: 100%;
     height: 4px;
     background-color: white;
     border-radius: 4px;
@@ -153,22 +153,39 @@ section.multimedia-content {
     height: 10vh;
     position: absolute;
     z-index: 500;
+    padding: 10px 10px 10px 10px;
 }
 
 .player-left {
     display: flex;
     align-items: center;
-    width: calc(100% / 3);
+    width: 25%;
 }
 
 .player-left-box {
     display: flex;
     align-items: center;
+    gap: 5px;
 }
 
 .player-img {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 34px;
+}
+
+.caption-box {
+    line-height: 13px;
+}
+
+.brano-w {
+    display: block;
+    width: 95%;
+}
+
+.heart-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .fz-12 {
@@ -184,20 +201,39 @@ section.multimedia-content {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: calc(100% / 3);
+    width: 50%;
+    gap: 15px;
+}
+
+.play-box {
+    display: flex;
+    gap: 35px;
+    color: white;
 }
 
 .player-middle-box {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 5px;
 }
 
 .player-right {
     display: flex;
     align-items: center;
-    width: calc(100% / 3);
+    width: 25%;
     justify-content: flex-end;
+    gap: 5px;
+    font-size: 10px;
+}
+
+#volume {
+    -webkit-appearance: none;
+    width: 50%;
+    height: 4px;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 /*FONT COLOR*/
@@ -207,6 +243,10 @@ section.multimedia-content {
 
 .white {
     color: white;
+}
+
+.black {
+    color: black;
 }
 
 .bold {
