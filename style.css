@@ -260,9 +260,11 @@ QUERY: BETWEEN MOBILE AND TABLET
     .nav-desktop-items {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        margin: 20px 10px;
+        width: 85%;
         gap: 10px;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .img-desktop-logo {
@@ -276,6 +278,12 @@ QUERY: BETWEEN MOBILE AND TABLET
         display: flex;
         align-items: center;
         gap: 5px;
+
+    }
+
+    .strip {
+        border-bottom: solid 1px white;
+        padding-bottom: 5px;
     }
 
     .fa-plus {
@@ -365,9 +373,11 @@ QUERY: TABLET
     .nav-desktop-items {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        margin: 20px 10px;
+        width: 85%;
+        margin: 0 auto;
         gap: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .img-desktop-logo {
@@ -470,9 +480,11 @@ QUERY: DESKTOP
     .nav-desktop-items {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        margin: 20px 10px;
+        width: 85%;
+        margin: 0 auto;
         gap: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .img-desktop-logo {
