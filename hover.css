@@ -1,3 +1,10 @@
 .box-nav-bar span:hover {
     color: white
 }
+
+#button:hover {
+    height: 28px;
+    border-radius: 30px;
+    font-size: 12px;
+    padding: 5px 23px;
+}
