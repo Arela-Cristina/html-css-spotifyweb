@@ -29,11 +29,7 @@
 }
 
 .fa-circle-play:hover {
-    font-size: 31px;
-}
-
-.playlist-w-img:hover {
-    background-color: pink;
+    font-size: 30px;
 }
 
 .hover-container:hover .hover-play {
