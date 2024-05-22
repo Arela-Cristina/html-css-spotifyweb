@@ -31,3 +31,11 @@
 .fa-circle-play:hover {
     font-size: 31px;
 }
+
+.playlist-w-img:hover {
+    background-color: pink;
+}
+
+.hover-container:hover .hover-play {
+    transform: scale(1);
+}
