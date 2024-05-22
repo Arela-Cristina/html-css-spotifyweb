@@ -588,6 +588,7 @@ QUERY: DESKTOP
         border-left-color: #adff2f;
         border-style: solid;
         width: 100%;
+        border-radius: 4px;
     }
 
     .item-box {
@@ -642,6 +643,19 @@ QUERY: DESKTOP
 
     .box-nav-bar {
         font-size: 10px;
+    }
+
+    .box-nav-bar a:first-child {
+        position: relative;
+    }
+
+    .green-strip {
+        border: solid 1px #adff2f;
+        border-radius: 4px;
+        position: absolute;
+        top: 18px;
+        width: 72%;
+        left: 10px;
     }
 
     section.multimedia-content {
