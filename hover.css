@@ -1,37 +1,41 @@
-.box-nav-bar span:hover {
-    color: white;
-    font-weight: bold;
-}
+@media all and (min-width: 1025px) {
 
-#button:hover {
-    height: 28px;
-    border-radius: 30px;
-    font-size: 12px;
-    padding: 5px 23px;
-}
+    #button:hover {
+        height: 28px;
+        border-radius: 30px;
+        font-size: 12px;
+        padding: 5px 23px;
+    }
 
-.item-box span:hover {
-    color: white;
-    font-weight: bold;
-}
+    .box-nav-bar span:hover {
+        color: white;
+    }
 
-.list-new-playlist span:hover {
-    color: white;
-    font-weight: bold;
-}
+    .item-box span:hover {
+        color: white;
+        font-weight: bold;
+    }
 
-.fa-heart:hover {
-    color: white;
-}
+    .list-new-playlist span:hover {
+        color: white;
+        font-weight: bold;
+    }
 
-.fa-folder:hover {
-    color: white;
-}
 
-.fa-circle-play:hover {
-    font-size: 30px;
-}
 
-.hover-container:hover .hover-play {
-    transform: scale(1);
+    .fa-heart:hover {
+        color: white;
+    }
+
+    .fa-folder:hover {
+        color: white;
+    }
+
+    .fa-circle-play:hover {
+        font-size: 30px;
+    }
+
+    .hover-container:hover .hover-play {
+        transform: scale(1);
+    }
 }
