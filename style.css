@@ -106,7 +106,7 @@ MOBILE FIRST
 
 section.multimedia-content {
     width: 88vw;
-    height: 68vh;
+    height: 72vh;
     overflow-y: scroll;
 }
 
@@ -353,12 +353,17 @@ QUERY: BETWEEN MOBILE AND TABLET
 
     }
 
-    .strip {
-        border-bottom: solid 1px white;
-        padding-bottom: 5px;
-        padding-left: 15px;
-        padding-right: 15px;
+    .box-border-white {
+        position: relative;
+    }
 
+    .border-white {
+        border-top: solid 1px white;
+        border-radius: 4px;
+        position: absolute;
+        top: -8px;
+        width: 97%;
+        left: 0;
     }
 
     .fa-plus {
@@ -399,7 +404,7 @@ QUERY: BETWEEN MOBILE AND TABLET
 
     section.multimedia-content {
         width: 70vw;
-        height: 69vh;
+        height: 72vh;
         overflow-y: scroll;
     }
 
@@ -431,8 +436,8 @@ QUERY: BETWEEN MOBILE AND TABLET
     .fa-circle-play {
         font-size: 30px;
     }
-}
 
+}
 
 /***********************************************************
 QUERY: TABLET                  
@@ -585,10 +590,14 @@ QUERY: DESKTOP
     }
 
     .border-green {
-        border-left-color: #adff2f;
-        border-style: solid;
+        border-left: solid 2px #adff2f;
+        border-radius: 0px;
         width: 100%;
-        border-radius: 4px;
+    }
+
+    /*DEBUG*/
+    .border-black {
+        border-left-color: black;
     }
 
     .item-box {
@@ -601,11 +610,13 @@ QUERY: DESKTOP
         padding-right: 15px;
     }
 
-    .strip {
-        border-bottom: solid 1px white;
-        padding-bottom: 5px;
-        width: 80%;
-        margin: 0 auto;
+    .border-white {
+        border-top: solid 1px white;
+        border-radius: 4px;
+        position: absolute;
+        top: -8px;
+        width: 84%;
+        left: 15px;
     }
 
     .img-desktop {
